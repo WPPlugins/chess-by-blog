@@ -1,0 +1,44 @@
+/*  
+Theme Name: Marble, 32x32
+Theme URI: http://www.levork.org/cbb/
+Description: Blue and white marble board. Squares are 32x32.
+Version: 1.0.0
+Author: Julian Fong
+Author URI: http://www.levork.org/
+*/
+.CBB-board table td { 
+  	padding: 0px;
+}
+.CBB-chessboard {
+	border-right:2px solid #bbb;
+	border-bottom:2px solid #bbb;
+	border-top:2px solid #eee;
+	border-left:2px solid #eee;
+}
+.CBB-square {
+	/* We need all three of these.. */
+	height: 32px;
+	min-height: 32px;
+	min-width: 32px;
+}
+.CBB-blankSquare {
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+.CBB-blackSquare {
+	background-attachment: fixed;
+	background-image: url(bluemarble.png);
+	border: 2px solid #315a87;
+}
+.CBB-whiteSquare {
+	background-attachment: fixed;
+	background-image: url(whitemarble.png);
+	border: 2px solid white;
+}
+.CBB-selectedSquare {
+	border: 2px solid #f44;
+}
+.CBB-moveableSquare {
+	border: 2px solid #4a4;
+}
+

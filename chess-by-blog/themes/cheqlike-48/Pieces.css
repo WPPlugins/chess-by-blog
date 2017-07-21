@@ -1,0 +1,72 @@
+/*  
+Theme Name: Cheqlike, 48x48
+Theme URI: http://www.levork.org/cbb/
+Description: Based on Chess Regular font, itself derived from Cheq. 32x32
+Version: 1.0.0
+Author: Julian Fong
+Author URI: http://www.levork.org/
+*/
+.CBB-whiteP {
+	background-image: url(pieces.png);
+	background-position: -144px -48px;
+}
+.CBB-blackP {
+	background-image: url(pieces.png);
+	background-position: -144px -96px;
+}
+.CBB-whiteN {
+	background-image: url(pieces.png);
+	background-position: -96px -48px;
+}
+.CBB-blackN {
+	background-image: url(pieces.png);
+	background-position: -96px -96px;
+}
+.CBB-whiteA {
+	background-image: url(pieces.png);
+	background-position: -288px -48px;
+}
+.CBB-blackA {
+	background-image: url(pieces.png);
+	background-position: -288px -92px;
+}
+.CBB-whiteC {
+	background-image: url(pieces.png);
+	background-position: -336px -48px;
+}
+.CBB-blackC {
+	background-image: url(pieces.png);
+	background-position: -336px -96px;
+}
+.CBB-whiteB {
+	background-image: url(pieces.png);
+	background-position: 0px -48px;
+}
+.CBB-blackB {
+	background-image: url(pieces.png);
+	background-position: 0px -96px;
+}
+.CBB-whiteR {
+	background-image: url(pieces.png);
+	background-position: -240px -48px;
+}
+.CBB-blackR {
+	background-image: url(pieces.png);
+	background-position: -240px -96px;
+}
+.CBB-whiteQ {
+	background-image: url(pieces.png);
+	background-position: -192px -48px;
+}
+.CBB-blackQ {
+	background-image: url(pieces.png);
+	background-position: -192px -96px;
+}
+.CBB-whiteK {
+	background-image: url(pieces.png);
+	background-position: -48px -48px;
+}
+.CBB-blackK {
+	background-image: url(pieces.png);
+	background-position: -48px -96px;
+}

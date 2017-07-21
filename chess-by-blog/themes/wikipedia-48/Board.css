@@ -1,0 +1,42 @@
+/*  
+Theme Name: Wikipedia, 48x48
+Theme URI: http://www.levork.org/cbb/
+Description: Styled after wikipedia presentation. Squares are 48x48.
+Version: 1.0.0
+Author: Julian Fong
+Author URI: http://www.levork.org/
+*/
+.CBB-board table td { 
+  	padding: 0px;
+}
+.CBB-chessboard {
+	border: 1px solid #b0b0b0;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+.CBB-square {
+	/* We need all three of these.. */
+	height: 48px;
+	min-height: 48px;
+	min-width: 48px;
+}
+.CBB-blankSquare {
+	background-color: transparent;
+	border: 2px solid transparent;
+}
+.CBB-blackSquare {
+	background-color: #d18b47;
+	border: 2px solid #d18b47;
+}
+.CBB-whiteSquare {
+	background-color: #ffce9e;
+	border: 2px solid #ffce9e;
+}
+.CBB-selectedSquare {
+	border: 2px solid red;
+}
+.CBB-moveableSquare {
+	border: 2px solid orange;
+}

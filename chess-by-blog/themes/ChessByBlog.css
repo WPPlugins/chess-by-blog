@@ -1,0 +1,226 @@
+.CBB-board table {
+	padding: 0 !important;
+	border: 0 !important;
+	margin: auto !important;
+	width: auto !important;
+}
+.CBB-board td {
+	padding: 0 !important;
+	border: 0 !important;
+	margin: 0 !important;
+	vertical-align: middle !important;
+	text-align: center !important;
+}
+.CBB-rank-grid {
+}
+.CBB-rank-label {
+	padding: 0px 5px 0px 5px !important;
+	font-size: 9px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+.CBB-file-grid {
+}
+.CBB-file-label {
+	padding: 5px 0px 5px 0px !important;
+	text-align: center;
+	font-size: 9px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+.CBB-gamelog-header {
+	font-weight: bold;
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+}
+.CBB-gamelog-number {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: right;
+}
+.CBB-gamelog-entry {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+}
+.CBB-gamelog-entry-with-comment {
+	font-style: italic;
+}
+.CBB-gamelog-entry:hover {
+	background-color: #66aa66;
+}
+.CBB-gamelog-selected-entry {
+	font-weight: bold;
+}
+.CBB-gameparagraph-entry {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+	display: inline;
+	float: left;
+}
+.CBB-gameparagraph-entry-with-comment {
+	font-style: italic;
+}
+.CBB-gameparagraph-entry:hover {
+	background-color: #66aa66;
+}
+.CBB-gameparagraph-selected-entry {
+	font-weight: bold;
+}
+
+.CBB-side-label {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+}
+.CBB-event-label {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+}
+.gwt-DialogBox {
+	border: 1px solid black;
+}
+.gwt-DialogBox .Caption {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: medium;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	background-color: #888888;
+}
+.CBB-button { 
+	/* We need all three of these.. */
+	height: 32px;
+	min-height: 32px;
+	min-width: 32px;
+}
+.CBB-acastle-button {
+	background-image: url(buttons.png);
+}
+.CBB-acastle-button-up-disabled {
+	background-image: url(buttons.png);
+	background-position: 0px -32px;
+}
+.CBB-acastle-button-down-hovering {
+	background-image: url(buttons.png);
+}
+.CBB-hcastle-button {
+	background-image: url(buttons.png);
+	background-position: -32px 0px;
+}
+.CBB-hcastle-button-up-disabled {
+	background-image: url(buttons.png);
+	background-position: -32px -32px;
+}
+.CBB-hcastle-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -32px 0px;
+}
+.CBB-draw-button {
+	background-image: url(buttons.png);
+	background-position: -64px 0px;
+}
+.CBB-draw-button-up-disabled {
+	background-image: url(buttons.png);
+	background-position: -64px -32px;
+}
+.CBB-draw-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -64px -0px;
+}
+.CBB-resign-button {
+	background-image: url(buttons.png);
+	background-position: -96px -0px;
+}
+.CBB-resign-button-up-disabled {
+	background-image: url(buttons.png);
+	background-position: -96px -32px;
+}
+.CBB-resign-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -96px 0px;
+}
+.CBB-flip-button {
+	background-image: url(buttons.png);
+	background-position: -128px 0px;
+}
+.CBB-flip-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -128px 0px;
+}
+.CBB-start-button {
+	background-image: url(buttons.png);
+	background-position: -160px 0px;
+}
+.CBB-start-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -160px 0px;
+}
+.CBB-rewind-button {
+	background-image: url(buttons.png);
+	background-position: -192px 0px;
+}
+.CBB-rewind-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -192px 0px;
+}
+.CBB-forward-button {
+	background-image: url(buttons.png);
+	background-position: -224px 0px;
+}
+.CBB-forward-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -224px 0px;
+}
+.CBB-end-button {
+	background-image: url(buttons.png);
+	background-position: -256px 0px;
+}
+.CBB-end-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -256px 0px;
+}
+.CBB-pgn-button {
+	background-image: url(buttons.png);
+	background-position: -288px 0px;
+}
+.CBB-pgn-button-down-hovering {
+	background-image: url(buttons.png);
+	background-position: -288px 0px;
+}
+.CBB-dialog {
+	padding: 5px;
+	background-color: white;
+}
+.CBB-dialog-message {
+	padding: 10px;
+}
+.CBB-status {
+	line-height: normal !important;
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small !important;
+	border: 0px;
+	-moz-box-shadow: none;
+	resize: none;
+}
+.CBB-post-message {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: medium;
+	color: black;
+}
+.CBB-gamelogDisclosurePanel .CBB-header { 
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: small;
+	color: black;
+	text-decoration: none;
+}
+.CBB-gamelogDisclosurePanel img {
+	padding: 0px;
+	border: 0px;
+}
+.CBB-gamelogDisclosurePanel a:hover img {
+	padding: 0px;
+	border: 0px;
+}
